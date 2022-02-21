@@ -1,4 +1,4 @@
-module myquote
+module github.com/tbhansen/GoDemo
 
 go 1.17
 
