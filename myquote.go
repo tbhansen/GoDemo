@@ -1,4 +1,4 @@
-package myquote
+package main
 
 import (
 	"fmt"
@@ -6,6 +6,12 @@ import (
 )
 
 func main() {
+	Go()
+	Glass()
+}
+func Go() {
 	fmt.Println(quote.Go())
+}
+func Glass() {
 	fmt.Println(quote.Glass())
 }
